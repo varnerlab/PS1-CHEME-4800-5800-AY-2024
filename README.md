@@ -54,3 +54,4 @@ We can use all of the types and functions from [Part 1](#part-1) to solve this p
    - The `second` element should be a dictionary of type `Dict{Int64, Int64}` with the following structure: The `key` should be the line number (starting from index 1), and the `value` should be the `two-digit integer` computed from the `first digit` and the `last digit` of the encoded line of text.
 
 Use the `testme_part_2.jl` script to test your implementation for [Part 2](#part-2). This script checks the implementation of the methods developed above and `decode_part_2` and computes the final value of the `true hidden sum` using the `production.txt` data file. The `true hidden sum` is `54925`.
+

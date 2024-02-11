@@ -15,11 +15,8 @@ function puzzleparse(filename::String)::Dict{Int64, MyPuzzleRecordModel}
     open(filename, "r") do io
         for line ∈ eachline(io)
             
-            # process the data lines -
-            records[linecounter] = _build(MyPuzzleRecordModel, line);
-            
-            # update the line counter -
-            linecounter += 1;
+            # TODO: do something with this line of text
+
         end
     end
 

@@ -4,5 +4,20 @@
 # ===== PRIVATE METHODS ABOVE HERE =================================================================================== #
 
 # ===== PUBLIC METHODS BELOW HERE =================================================================================== #
-# TODO: Make a build method to construct MyPuzzleRecordModel types
+
+"""
+    function build(modeltype::Type{MyPuzzleRecordModel}, data::NamedTuple) -> MyPuzzleRecordModel
+
+The `build` function constructs and configures a `MyPuzzleRecordModel` instance from the `NamedTuple` of data.
+
+### Arguments
+- `modeltype::Type{MyPuzzleRecordModel}`: The type of the model to build, which should be `MyPuzzleRecordModel`.
+- `data::NamedTuple`: The data to use to build the model.
+
+### Returns
+- A `MyPuzzleRecordModel` instance that is configured with the data from the `NamedTuple`.
+"""
+function build(modeltype::Type{MyPuzzleRecordModel}, data::NamedTuple)::MyPuzzleRecordModel
+    throws("build method not implemented for model type: $(modeltype)");
+end
 # ===== PUBLIC METHODS ABOVE HERE =================================================================================== #

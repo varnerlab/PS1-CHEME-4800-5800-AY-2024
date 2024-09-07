@@ -1,4 +1,4 @@
-# `PS1`: Decode Hidden Sums from a Set of Strings
+# PS1: Decode Hidden Sums from a Set of Strings
 Problem set 1 `(PS1)` gives students practice working with [Strings](https://docs.julialang.org/en/v1/manual/strings/#man-strings), [Characters](https://docs.julialang.org/en/v1/manual/strings/#man-characters), [Arrays](https://docs.julialang.org/en/v1/manual/arrays/#man-arrays-1), [Dictionaries](https://docs.julialang.org/en/v1/base/collections/#Base.Dict) and [Loops](https://docs.julialang.org/en/v1/manual/control-flow/#man-loops-1). `PS1` is divided into two parts and was inspired by the `2023 Day 1` [Advent of Code challenge](https://adventofcode.com/).
 
 ## Part 1

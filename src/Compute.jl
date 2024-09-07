@@ -21,7 +21,7 @@ function decode_part_1(models::Dict{Int64, MyPuzzleRecordModel})::Tuple{Int64, D
     codes = Dict{Int64, Int64}();
     
     # TODO: Add the logic for part 1 here
-    throws("decode_part_1 method not implemented yet");
+    throw("decode_part_1 method not implemented yet");
     
     # return the total -
     return (total, codes);

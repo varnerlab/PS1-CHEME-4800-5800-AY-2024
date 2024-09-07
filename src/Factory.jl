@@ -18,6 +18,6 @@ The `build` function constructs and configures a `MyPuzzleRecordModel` instance 
 - A `MyPuzzleRecordModel` instance that is configured with the data from the `NamedTuple`.
 """
 function build(modeltype::Type{MyPuzzleRecordModel}, data::NamedTuple)::MyPuzzleRecordModel
-    throws("build method not implemented for model type: $(modeltype)");
+    throw("build method not implemented for model type: $(modeltype)");
 end
 # ===== PUBLIC METHODS ABOVE HERE =================================================================================== #

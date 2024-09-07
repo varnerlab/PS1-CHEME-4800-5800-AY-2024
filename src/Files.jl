@@ -23,7 +23,7 @@ function puzzleparse(filepath::String)::Dict{Int64, MyPuzzleRecordModel}
         for line ∈ eachline(io)
             
             # TODO: do something with this line of text
-            throws("puzzleparse method not implemented yet");
+            throw("puzzleparse method not implemented yet");
         end
     end
 
